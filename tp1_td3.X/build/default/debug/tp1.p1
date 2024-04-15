@@ -1,0 +1,144 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"7 tp1.c
+[p x FOSC  =  INTRCIO    ]
+"8
+[p x WDTE  =  OFF        ]
+"9
+[p x PWRTE  =  OFF       ]
+"10
+[p x MCLRE  =  OFF       ]
+"11
+[p x BOREN  =  ON        ]
+"12
+[p x CP  =  OFF          ]
+"13
+[p x CPD  =  OFF         ]
+"54 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"74
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 74: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"94
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"200
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 200: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"220
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 220: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"308
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 308: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"328
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 328: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"406
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 406: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"454
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 454: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"461
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 461: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"481
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 481: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"501
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 501: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"566
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 566: __asm("CMCON equ 019h");
+[; <" CMCON equ 019h ;# ">
+"625
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 625: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"695
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 695: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"745
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 745: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"793
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 793: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"827
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 827: __asm("OSCCAL equ 090h");
+[; <" OSCCAL equ 090h ;# ">
+"887
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 887: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"932
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 932: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"937
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 937: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"1106
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 1106: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1166
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 1166: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1171
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 1171: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1204
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 1204: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1224
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 1224: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1262
+[; ;C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC10-12Fxxx_DFP/1.7.178/xc8\pic\include\proc\pic12f629.h: 1262: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"19 tp1.c
+[; ;tp1.c: 19: int num_a;
+[v _num_a `i ~T0 @X0 1 e ]
+"20
+[; ;tp1.c: 20: int num_b;
+[v _num_b `i ~T0 @X0 1 e ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"21
+[; ;tp1.c: 21: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"23
+[; ;tp1.c: 23:     while(1){
+[e :U 75 ]
+{
+"24
+[; ;tp1.c: 24:         num_a += 1;
+[e =+ _num_a -> 1 `i ]
+"26
+[; ;tp1.c: 26:         if(num_a == 10){
+[e $ ! == _num_a -> 10 `i 77  ]
+{
+"27
+[; ;tp1.c: 27:             num_a=0;
+[e = _num_a -> 0 `i ]
+"28
+[; ;tp1.c: 28:         }
+}
+[e :U 77 ]
+"29
+[; ;tp1.c: 29:     }
+}
+[e :U 74 ]
+[e $U 75  ]
+[e :U 76 ]
+"30
+[; ;tp1.c: 30:     return;
+[e $UE 73  ]
+"31
+[; ;tp1.c: 31: }
+[e :UE 73 ]
+}
