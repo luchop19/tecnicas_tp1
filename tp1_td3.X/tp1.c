@@ -1,4 +1,3 @@
-
 // PIC12F629 Configuration Bit Settings
 
 // 'C' source line config statements
@@ -16,16 +15,59 @@
 // Use project enums instead of #define for ON and OFF.
 
 #include <xc.h>
-int num_a;
-int num_b;
-void main(void) {
+#include <stdio.h>
+#include <stdlib.h>
+
+#define _XTAL_FREQ 4000000
+#define Led GPIO2
+
+int contador = 0;
+
+void init(void)
+{
+    //CONFIGURA LOS PINES COMO ENTRADA O SALIDA
+    TRISIO = 0b11111011;
     
-    while(1){
-        num_a += 1;
-        
-        if(num_a == 10){
-            num_a=0;
+    //SELECCIONAMOS TIMER 0
+    T0CS = 0;
+    PSA = 0;
+    
+    //CONFIGURA EL PRESCALER EN 255
+    PS2 = 1;
+    PS1 = 1;
+    PS0 = 1;
+    
+    TMR0 = 255;
+    
+    //HABILITAR INTERRUPCIONES
+    T0IE = 1; 
+    GIE = 1;
+}
+
+void __interrupt() inter(void)
+{
+    if(T0IF)
+    {
+        contador += 1;
+        if(contador >= 16)
+        {
+            if(Led = 0)
+                Led = 1;
+            else
+                Led = 0;
+            contador = 0;
         }
+        T0IF = 0;
+    }
+}
+
+void main(void) 
+{
+    init();
+    
+    while(1)
+    {
+        
     }
     return;
 }
